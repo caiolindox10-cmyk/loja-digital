@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #fff;
+}
+html, body{
+    height: 100%;
+}
+header{
+
+    nav{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        width: fit-content;
+        gap: 4.5px;
+        margin: auto;
+
+        span{
+            font-size: 20px;
+            text-transform: capitalize;
+            font-weight: 700;
+            color: #c92071;
+        }
+    }
+}
