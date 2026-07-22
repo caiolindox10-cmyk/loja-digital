@@ -1,22 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entrar - Loja Digital</title>
-    <link rel="stylesheet" href="../styles/login.css">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>Entrar - Loja Digital</title>
+        <link
+            rel="stylesheet"
+            href="../styles/reset.css"
+        />
+        <link
+            rel="stylesheet"
+            href="../styles/global.css"
+        />
     </head>
-<body>
-    <header>
-        <nav>
-            <a href="../../index.html">
-                <img 
-                    src="../assets/logo..svg.svg"
-                    alt="logo da loja na cor rosa"
-                />
-                <span>loja digital</span>
-            </a>
-        </nav>
-    </header>
-</body>
+    <body>
+        <header>
+            <nav>
+                <a href="../../index.html">
+                    <img
+                        src="../assets/logo.svg"
+                        alt="logo da loja na cor rosa"
+                    />
+                    <span>loja digital</span>
+                </a>
+            </nav>
+        </header>
+        <main>
+            <form>
+                <h1>acesse sua conta</h1>
+                <p>Não possui conta? Registre-se <a href="#">aqui</a>.</p>
+                <div class="inputs">
+                    <div>
+                        <label>email *</label>
+                        <input
+                            type="email"
+                            placeholder="Ex: usuario@email.com"
+                            required
+                        />
+                    </div>
+                    <div>
+                        <label>senha *</label>
+                        <input
+                            type="password"
+                            placeholder="Ex: 123456"
+                            required
+                        />
+                    </div>
+                </div>
+                <span>
+                    <a href="#">esqueci minha senha</a>
+                </span>
+                <button>acessar conta</button>
+                <div class="others">
+                    <span>Ou faça login com</span>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img
+                                        src="../assets/gmail.svg"
+                                        alt="ícone do gmail"
+                                    />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img
+                                        src="../assets/facebook.svg"
+                                        alt="ícone do facebook"
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </form>
+        </main>
+    </body>
 </html>
