@@ -25,7 +25,6 @@ main {
 
     form {
         width: 315px;
-        height: 572px;
         background-color: #fff;
         margin: 0 auto;
         border-radius: 4px;
@@ -118,7 +117,7 @@ main {
                     }
 
                     .others{
-                        widht: fit-content;
+                        width: fit-content;
                         margin: 0 auto;
 
                         span{
